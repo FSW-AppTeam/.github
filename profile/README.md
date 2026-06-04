@@ -1,6 +1,6 @@
 # overzicht
 
-_Main contributors are currently listed based on visible maintainers in this repository: `dasscheman`, `Sabaj101`, `gerb-ster`._
+_Main contributors are currently listed based on the visible maintainers available from this organization profile context: `dasscheman`, `Sabaj101`, `gerb-ster`._
 
 | Repository | Short description | Main contributors |
 | --- | --- | --- |
