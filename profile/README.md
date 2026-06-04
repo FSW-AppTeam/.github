@@ -2,7 +2,7 @@
 
 _Main contributors are currently listed based on the visible maintainers available from this organization profile context: `dasscheman`, `Sabaj101`, `gerb-ster`._
 
-| Repository | Short description | Main contributors |
+| Repository | Short Description | Main contributors |
 | --- | --- | --- |
 | [`.github`](https://github.com/FSW-AppTeam/.github) | Organization profile and shared GitHub metadata. | dasscheman, Sabaj101, gerb-ster |
 | [`FSW-argocd-apps`](https://github.com/FSW-AppTeam/FSW-argocd-apps) | Argo CD application definitions for AppTeam deployments. | dasscheman, Sabaj101, gerb-ster |
@@ -10,7 +10,7 @@ _Main contributors are currently listed based on the visible maintainers availab
 | [`FSW-CRM`](https://github.com/FSW-AppTeam/FSW-CRM) | Customer relationship management application for FSW. | dasscheman, Sabaj101, gerb-ster |
 | [`FSW-DOY`](https://github.com/FSW-AppTeam/FSW-DOY) | Dynamics Of Youth Application. | dasscheman, Sabaj101, gerb-ster |
 | [`FSW-GrantTool-v3`](https://github.com/FSW-AppTeam/FSW-GrantTool-v3) | New iteration of the GrantTool using Inertia & Vue. | dasscheman, Sabaj101, gerb-ster |
-| [`FSW-Graduates`](https://github.com/FSW-AppTeam/FSW-Graduates) | A Tool to administrate Graduate progress. | dasscheman, Sabaj101, gerb-ster |
+| [`FSW-Graduates`](https://github.com/FSW-AppTeam/FSW-Graduates) | A tool to administrate graduate progress. | dasscheman, Sabaj101, gerb-ster |
 | [`FSW-Logo-Verklaring`](https://github.com/FSW-AppTeam/FSW-Logo-Verklaring) | Application for logo declaration workflows. | dasscheman, Sabaj101, gerb-ster |
 | [`FSW-Participants-DB`](https://github.com/FSW-AppTeam/FSW-Participants-DB) | A Faculty wide participants database. | dasscheman, Sabaj101, gerb-ster |
 | [`FSW-Payout-V2`](https://github.com/FSW-AppTeam/FSW-Payout-V2) | Upgraded version of the Payout Tool in Inertia+Vuetify. | dasscheman, Sabaj101, gerb-ster |
