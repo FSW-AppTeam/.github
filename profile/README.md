@@ -7,7 +7,7 @@ _Main contributors are currently listed based on visible maintainers in this rep
 | [`.github`](https://github.com/FSW-AppTeam/.github) | Organization profile and shared GitHub metadata. | dasscheman, Sabaj101, gerb-ster |
 | [`FSW-argocd-apps`](https://github.com/FSW-AppTeam/FSW-argocd-apps) | Argo CD application definitions for AppTeam deployments. | dasscheman, Sabaj101, gerb-ster |
 | [`FSW-Contractonderwijs`](https://github.com/FSW-AppTeam/FSW-Contractonderwijs) | Tool voor administratie Contractonderwijs. | dasscheman, Sabaj101, gerb-ster |
-| [`FSW-CRM`](https://github.com/FSW-AppTeam/FSW-CRM) | crm.fss.uu.nl. | dasscheman, Sabaj101, gerb-ster |
+| [`FSW-CRM`](https://github.com/FSW-AppTeam/FSW-CRM) | Customer relationship management application for FSW. | dasscheman, Sabaj101, gerb-ster |
 | [`FSW-DOY`](https://github.com/FSW-AppTeam/FSW-DOY) | Dynamics Of Youth Application. | dasscheman, Sabaj101, gerb-ster |
 | [`FSW-GrantTool-v3`](https://github.com/FSW-AppTeam/FSW-GrantTool-v3) | New iteration of the GrantTool using Inertia & Vue. | dasscheman, Sabaj101, gerb-ster |
 | [`FSW-Graduates`](https://github.com/FSW-AppTeam/FSW-Graduates) | A Tool to administrate Graduate progress. | dasscheman, Sabaj101, gerb-ster |
@@ -17,7 +17,7 @@ _Main contributors are currently listed based on visible maintainers in this rep
 | [`FSW-ReflectionTool-V2`](https://github.com/FSW-AppTeam/FSW-ReflectionTool-V2) | An updated version of the FSW Reflection Tool. | dasscheman, Sabaj101, gerb-ster |
 | [`FSW-SignUp-V2`](https://github.com/FSW-AppTeam/FSW-SignUp-V2) | An updated version of the Sign Up Application. | dasscheman, Sabaj101, gerb-ster |
 | [`FSW-Student-planner`](https://github.com/FSW-AppTeam/FSW-Student-planner) | Student planning and scheduling application. | dasscheman, Sabaj101, gerb-ster |
-| [`FSW-URU`](https://github.com/FSW-AppTeam/FSW-URU) | FSW-URU. | dasscheman, Sabaj101, gerb-ster |
+| [`FSW-URU`](https://github.com/FSW-AppTeam/FSW-URU) | URU application maintained by the FSW AppTeam. | dasscheman, Sabaj101, gerb-ster |
 | [`FSW-Vil`](https://github.com/FSW-AppTeam/FSW-Vil) | VIL application maintained by the FSW AppTeam. | dasscheman, Sabaj101, gerb-ster |
 | [`FSW-VINA`](https://github.com/FSW-AppTeam/FSW-VINA) | VINA application maintained by the FSW AppTeam. | dasscheman, Sabaj101, gerb-ster |
 | [`FSW-Vrijstellingen`](https://github.com/FSW-AppTeam/FSW-Vrijstellingen) | Application to register course exemptions. | dasscheman, Sabaj101, gerb-ster |
@@ -30,4 +30,4 @@ _Main contributors are currently listed based on visible maintainers in this rep
 | [`LimeSurveyOIDCAuth`](https://github.com/FSW-AppTeam/LimeSurveyOIDCAuth) | A OIDC Authentication plugin for LimeSurvey 6.x. | dasscheman, Sabaj101, gerb-ster |
 | [`MS-Consultation`](https://github.com/FSW-AppTeam/MS-Consultation) | Reservations tool for the M&S Consultation Shop. | dasscheman, Sabaj101, gerb-ster |
 | [`OSZ-GST-Applicatie`](https://github.com/FSW-AppTeam/OSZ-GST-Applicatie) | Data Visualisation App for OSZ-GST. | dasscheman, Sabaj101, gerb-ster |
-| [`UU-IT-Inhuur`](https://github.com/FSW-AppTeam/UU-IT-Inhuur) | it-inhuur.uu.nl. | dasscheman, Sabaj101, gerb-ster |
+| [`UU-IT-Inhuur`](https://github.com/FSW-AppTeam/UU-IT-Inhuur) | University-wide IT hiring and intake application. | dasscheman, Sabaj101, gerb-ster |
