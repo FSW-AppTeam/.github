@@ -6,7 +6,7 @@ _Main contributors are currently listed based on the visible maintainers availab
 | --- | --- | --- |
 | [`.github`](https://github.com/FSW-AppTeam/.github) | Organization profile and shared GitHub metadata. | dasscheman, Sabaj101, gerb-ster |
 | [`FSW-argocd-apps`](https://github.com/FSW-AppTeam/FSW-argocd-apps) | Argo CD application definitions for AppTeam deployments. | dasscheman, Sabaj101, gerb-ster |
-| [`FSW-Contractonderwijs`](https://github.com/FSW-AppTeam/FSW-Contractonderwijs) | Tool voor administratie Contractonderwijs. | dasscheman, Sabaj101, gerb-ster |
+| [`FSW-Contractonderwijs`](https://github.com/FSW-AppTeam/FSW-Contractonderwijs) | Tool for contract education administration. | dasscheman, Sabaj101, gerb-ster |
 | [`FSW-CRM`](https://github.com/FSW-AppTeam/FSW-CRM) | Customer relationship management application for FSW. | dasscheman, Sabaj101, gerb-ster |
 | [`FSW-DOY`](https://github.com/FSW-AppTeam/FSW-DOY) | Dynamics Of Youth Application. | dasscheman, Sabaj101, gerb-ster |
 | [`FSW-GrantTool-v3`](https://github.com/FSW-AppTeam/FSW-GrantTool-v3) | New iteration of the GrantTool using Inertia & Vue. | dasscheman, Sabaj101, gerb-ster |
@@ -27,7 +27,7 @@ _Main contributors are currently listed based on the visible maintainers availab
 | [`IT-inhuur`](https://github.com/FSW-AppTeam/IT-inhuur) | Legacy IT hiring and intake application. | dasscheman, Sabaj101, gerb-ster |
 | [`KLI-Cursusregistratie`](https://github.com/FSW-AppTeam/KLI-Cursusregistratie) | Course registration for the Kurt Lewin Institute. | dasscheman, Sabaj101, gerb-ster |
 | [`LAMOS`](https://github.com/FSW-AppTeam/LAMOS) | A web interface for LAMOS. | dasscheman, Sabaj101, gerb-ster |
-| [`LimeSurveyOIDCAuth`](https://github.com/FSW-AppTeam/LimeSurveyOIDCAuth) | A OIDC Authentication plugin for LimeSurvey 6.x. | dasscheman, Sabaj101, gerb-ster |
+| [`LimeSurveyOIDCAuth`](https://github.com/FSW-AppTeam/LimeSurveyOIDCAuth) | An OIDC authentication plugin for LimeSurvey 6.x. | dasscheman, Sabaj101, gerb-ster |
 | [`MS-Consultation`](https://github.com/FSW-AppTeam/MS-Consultation) | Reservations tool for the M&S Consultation Shop. | dasscheman, Sabaj101, gerb-ster |
 | [`OSZ-GST-Applicatie`](https://github.com/FSW-AppTeam/OSZ-GST-Applicatie) | Data Visualisation App for OSZ-GST. | dasscheman, Sabaj101, gerb-ster |
 | [`UU-IT-Inhuur`](https://github.com/FSW-AppTeam/UU-IT-Inhuur) | University-wide IT hiring and intake application. | dasscheman, Sabaj101, gerb-ster |
