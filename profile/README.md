@@ -1,4 +1,4 @@
-# overzicht
+# Overzicht
 
 _Main contributors are currently listed based on the visible maintainers available from this organization profile context: `dasscheman`, `Sabaj101`, `gerb-ster`._
 
@@ -24,7 +24,7 @@ _Main contributors are currently listed based on the visible maintainers availab
 | [`FSW-Werkplek`](https://github.com/FSW-AppTeam/FSW-Werkplek) | Workplace support application for FSW processes. | dasscheman, Sabaj101, gerb-ster |
 | [`HTS-Appteam-dashboard`](https://github.com/FSW-AppTeam/HTS-Appteam-dashboard) | Dashboard for HTS/AppTeam operational insights. | dasscheman, Sabaj101, gerb-ster |
 | [`HTS-SCF-Applicatie`](https://github.com/FSW-AppTeam/HTS-SCF-Applicatie) | Security Control Framework Applicatie. | dasscheman, Sabaj101, gerb-ster |
-| [`IT-inhuur`](https://github.com/FSW-AppTeam/IT-inhuur) | Legacy IT hiring and intake application. | dasscheman, Sabaj101, gerb-ster |
+| [`IT-inhuur`](https://github.com/FSW-AppTeam/IT-inhuur) | IT hiring and intake application for FSW. | dasscheman, Sabaj101, gerb-ster |
 | [`KLI-Cursusregistratie`](https://github.com/FSW-AppTeam/KLI-Cursusregistratie) | Course registration for the Kurt Lewin Institute. | dasscheman, Sabaj101, gerb-ster |
 | [`LAMOS`](https://github.com/FSW-AppTeam/LAMOS) | A web interface for LAMOS. | dasscheman, Sabaj101, gerb-ster |
 | [`LimeSurveyOIDCAuth`](https://github.com/FSW-AppTeam/LimeSurveyOIDCAuth) | An OIDC authentication plugin for LimeSurvey 6.x. | dasscheman, Sabaj101, gerb-ster |
