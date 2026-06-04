@@ -17,6 +17,7 @@
 - [`FSW-Vil`](https://github.com/FSW-AppTeam/FSW-Vil)
 - [`FSW-VINA`](https://github.com/FSW-AppTeam/FSW-VINA)
 - [`FSW-Vrijstellingen`](https://github.com/FSW-AppTeam/FSW-Vrijstellingen)
+- [`FSW-Werkplek`](https://github.com/FSW-AppTeam/FSW-Werkplek)
 - [`HTS-Appteam-dashboard`](https://github.com/FSW-AppTeam/HTS-Appteam-dashboard)
 - [`HTS-SCF-Applicatie`](https://github.com/FSW-AppTeam/HTS-SCF-Applicatie)
 - [`IT-inhuur`](https://github.com/FSW-AppTeam/IT-inhuur)
