@@ -19,7 +19,7 @@ TABLE_HEADER = "| Repository | Short Description |"
 TABLE_DIVIDER = "| --- | --- |"
 DEFAULT_DESCRIPTION = "No description available."
 ROW_PATTERN = re.compile(
-    r"^\|\s*\[`(?P<name>[^`]+)`\]\([^)]*\)\s*\|\s*(?P<description>.*?)\s*\|$"
+    r"^\|\s*\[`(?P<name>[^`]+)`\]\([^)]*\)\s*\|\s*(?P<description>[^|]*)\s*\|$"
 )
 NEXT_LINK_PATTERN = re.compile(r"<([^>]+)>")
 
@@ -44,7 +44,8 @@ def github_get_json(url: str) -> tuple[list[dict], str | None]:
             payload = json.loads(response.read().decode("utf-8"))
             if not isinstance(payload, list):
                 raise RuntimeError(
-                    f"Expected a list response from GitHub API for URL '{url}', received {type(payload).__name__}."
+                    f"Expected a list response from GitHub repos endpoint '{url}', "
+                    f"received {type(payload).__name__}."
                 )
             return payload, response.headers.get("Link")
     except HTTPError as exc:
@@ -76,10 +77,15 @@ def fetch_org_repos(org: str) -> list[Repo]:
     while url:
         payload, link_header = github_get_json(url)
         for item in payload:
+            raw_description = item.get("description")
             repos.append(
                 Repo(
                     name=item["name"],
-                    description=(item.get("description") or DEFAULT_DESCRIPTION).strip(),
+                    description=(
+                        DEFAULT_DESCRIPTION
+                        if raw_description is None
+                        else raw_description.strip()
+                    ),
                 )
             )
         url = parse_next_link(link_header)
@@ -109,7 +115,7 @@ def find_table_bounds(lines: list[str]) -> tuple[int, int]:
         )
 
     end_idx = header_idx + 2
-    while end_idx < len(lines) and lines[end_idx].lstrip().startswith("|"):
+    while end_idx < len(lines) and lines[end_idx].strip().startswith("|"):
         end_idx += 1
     return header_idx, end_idx
 
