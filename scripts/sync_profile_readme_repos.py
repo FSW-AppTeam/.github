@@ -7,6 +7,7 @@ import os
 import re
 import urllib.parse
 import urllib.request
+from urllib.error import HTTPError, URLError
 from dataclasses import dataclass
 from pathlib import Path
 
@@ -36,9 +37,23 @@ def github_get_json(url: str) -> tuple[list[dict], str | None]:
         headers["Authorization"] = "Bearer " + TOKEN
 
     request = urllib.request.Request(url, headers=headers)
-    with urllib.request.urlopen(request) as response:
-        payload = json.loads(response.read().decode("utf-8"))
-        return payload, response.headers.get("Link")
+    try:
+        with urllib.request.urlopen(request) as response:
+            payload = json.loads(response.read().decode("utf-8"))
+            if not isinstance(payload, list):
+                raise RuntimeError(
+                    f"Expected a list response from GitHub API for URL '{url}', received {type(payload).__name__}."
+                )
+            return payload, response.headers.get("Link")
+    except HTTPError as exc:
+        raise RuntimeError(
+            f"GitHub API request failed with HTTP {exc.code} for '{url}'. "
+            "Ensure network access is available and GITHUB_TOKEN is valid."
+        ) from exc
+    except URLError as exc:
+        raise RuntimeError(
+            f"Failed to reach GitHub API for '{url}'. Ensure network access is available."
+        ) from exc
 
 
 def parse_next_link(link_header: str | None) -> str | None:
