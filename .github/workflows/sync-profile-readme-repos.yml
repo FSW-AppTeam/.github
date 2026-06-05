@@ -24,17 +24,20 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           ORG_NAME: FSW-AppTeam
+          README_PATH: profile/README.md
         run: python scripts/sync_profile_readme_repos.py
 
       - name: Commit changes
+        env:
+          README_PATH: profile/README.md
         run: |
-          if git diff --quiet -- profile/README.md; then
+          if git diff --quiet -- "${README_PATH}"; then
             echo "No README changes to commit."
             exit 0
           fi
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add profile/README.md
+          git add "${README_PATH}"
           git commit -m "chore: sync profile README repositories"
           git push

@@ -12,11 +12,12 @@ from dataclasses import dataclass
 from pathlib import Path
 
 
-README_PATH = Path("profile/README.md")
+README_PATH = Path(os.environ.get("README_PATH", "profile/README.md"))
 ORG_NAME = os.environ.get("ORG_NAME", "FSW-AppTeam")
 TOKEN = os.environ.get("GITHUB_TOKEN")
 TABLE_HEADER = "| Repository | Short Description |"
 TABLE_DIVIDER = "| --- | --- |"
+DEFAULT_DESCRIPTION = "No description available."
 ROW_PATTERN = re.compile(
     r"^\|\s*\[`(?P<name>[^`]+)`\]\([^)]*\)\s*\|\s*(?P<description>.*?)\s*\|$"
 )
@@ -77,7 +78,7 @@ def fetch_org_repos(org: str) -> list[Repo]:
             repos.append(
                 Repo(
                     name=item["name"],
-                    description=(item.get("description") or "No description available.").strip(),
+                    description=(item.get("description") or DEFAULT_DESCRIPTION).strip(),
                 )
             )
         url = parse_next_link(link_header)
