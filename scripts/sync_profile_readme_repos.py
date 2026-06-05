@@ -21,6 +21,7 @@ DEFAULT_DESCRIPTION = "No description available."
 ROW_PATTERN = re.compile(
     r"^\|\s*\[`(?P<name>[^`]+)`\]\([^)]*\)\s*\|\s*(?P<description>.*?)\s*\|$"
 )
+NEXT_LINK_PATTERN = re.compile(r"<([^>]+)>")
 
 
 @dataclass(frozen=True)
@@ -63,7 +64,7 @@ def parse_next_link(link_header: str | None) -> str | None:
     for part in link_header.split(","):
         section = part.strip()
         if 'rel="next"' in section:
-            match = re.search(r"<([^>]+)>", section)
+            match = NEXT_LINK_PATTERN.search(section)
             if match:
                 return match.group(1)
     return None
@@ -102,6 +103,10 @@ def find_table_bounds(lines: list[str]) -> tuple[int, int]:
             break
     if header_idx == -1:
         raise RuntimeError(f"Could not find table header '{TABLE_HEADER}' in {README_PATH}.")
+    if header_idx + 1 >= len(lines) or lines[header_idx + 1].strip() != TABLE_DIVIDER:
+        raise RuntimeError(
+            f"Could not find expected table divider '{TABLE_DIVIDER}' after header in {README_PATH}."
+        )
 
     end_idx = header_idx + 2
     while end_idx < len(lines) and lines[end_idx].lstrip().startswith("|"):
