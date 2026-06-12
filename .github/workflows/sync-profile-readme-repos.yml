@@ -2,6 +2,12 @@ name: Sync profile README repositories
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/sync-profile-readme-repos.yml"
+      - "scripts/sync_profile_readme_repos.py"
   schedule:
     # Runs daily at 05:00 UTC.
     - cron: "0 5 * * *"

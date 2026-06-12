@@ -72,7 +72,7 @@ def parse_next_link(link_header: str | None) -> str | None:
 
 
 def fetch_org_repos(org: str) -> list[Repo]:
-    url = f"https://api.github.com/orgs/{urllib.parse.quote(org)}/repos?type=public&per_page=100"
+    url = f"https://api.github.com/orgs/{urllib.parse.quote(org)}/repos?type=all&per_page=100"
     repos: list[Repo] = []
     while url:
         payload, link_header = github_get_json(url)
