@@ -29,7 +29,9 @@ jobs:
 
       - name: Sync repositories in profile README
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # Prefer an org-level PAT (read:org + repo read) so private repositories are included.
+          # Falls back to the default repository-scoped GitHub token when not configured.
+          GITHUB_TOKEN: ${{ secrets.ORG_REPO_READ_TOKEN || github.token }}
           ORG_NAME: FSW-AppTeam
           README_PATH: profile/README.md
         run: python scripts/sync_profile_readme_repos.py
