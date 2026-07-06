@@ -14,11 +14,11 @@
 | [`FSW-Payout-V2`](https://github.com/FSW-AppTeam/FSW-Payout-V2) | Upgraded version of the Payout Tool in Inertia+Vuetify |
 | [`FSW-ReflectionTool-V2`](https://github.com/FSW-AppTeam/FSW-ReflectionTool-V2) | An updated version of the FSW Reflection Tool |
 | [`FSW-SignUp-V2`](https://github.com/FSW-AppTeam/FSW-SignUp-V2) | An updated version of the Sign Up Application |
+| [`FSW-URU`](https://github.com/FSW-AppTeam/FSW-URU) | No description available. |
 | [`FSW-Vil`](https://github.com/FSW-AppTeam/FSW-Vil) | No description available. |
 | [`FSW-VINA`](https://github.com/FSW-AppTeam/FSW-VINA) | VINA application maintained by the FSW AppTeam. |
 | [`FSW-Vrijstellingen`](https://github.com/FSW-AppTeam/FSW-Vrijstellingen) | Application register course exemptions |
 | [`FSW-Werkplek`](https://github.com/FSW-AppTeam/FSW-Werkplek) | No description available. |
-| [`FSW-URU`](https://github.com/FSW-AppTeam/FSW-URU) | FSW-URU |
 | [`HTS-AppTeam-OpenCode`](https://github.com/FSW-AppTeam/HTS-AppTeam-OpenCode) | No description available. |
 | [`HTS-Appteam-dashboard`](https://github.com/FSW-AppTeam/HTS-Appteam-dashboard) | No description available. |
 | [`HTS-SCF-Applicatie`](https://github.com/FSW-AppTeam/HTS-SCF-Applicatie) | Security Control Framework Applicatie |
