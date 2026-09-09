@@ -17,4 +17,5 @@
 | [`FSW-LimeSurvey-SurfConext-plugin`](https://github.com/FSW-AppTeam/FSW-LimeSurvey-SurfConext-plugin) | A LimeSurvey plugin for connection to SurfConext OIDC |
 | [`LimeSurveyOIDCAuth`](https://github.com/FSW-AppTeam/LimeSurveyOIDCAuth) | Deprecated: An OIDC authentication plugin for LimeSurvey 6.x. |
 | [`LimeSurvey-UU-theme`](https://github.com/FSW-AppTeam/FSW-LimeSurvey-UU-theme) | UU theme for the survey's and for the survey overview page |
+| [`LimeSurvey-UU-Fruity-theme`](https://github.com/FSW-AppTeam/FSW-LimeSurvey-UU-Fruity-theme) | UU Fruitye theme for the survey's and for the survey overview page, required by new LimeSurvey 7 editor|
 | [`LimeSurvey-UU-Admin-theme`](https://github.com/FSW-AppTeam/FSW-LimeSurvey-UU-Admin-theme) | UU theme for the amdmin inlog page |
